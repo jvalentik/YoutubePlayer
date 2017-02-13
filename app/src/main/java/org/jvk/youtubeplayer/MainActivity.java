@@ -59,8 +59,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                 break;
         }
         if (intent != null) {
-
+            startActivity(intent);
         }
-
     }
 }
